@@ -62,7 +62,7 @@ Yii поддерживает работу с Active Record для следующ
 `OrderItem` в `tbl_order_item`. 
 
 Если имя таблицы указано в формате `{{%TableName}}`, символ `%` заменяется префиксом. Например, , `{{%post}}` становится
-`{{tbl_post}}`. Фигуриные скобки используются для [экранирования в SQL-запросах](db-dao.md#quoting-table-and-column-names).
+`{{tbl_post}}`. Фигурные скобки используются для [экранирования в SQL-запросах](db-dao.md#quoting-table-and-column-names).
 
 В нижеследующем примере мы объявляем класс Active Record с названием `Customer` для таблицы `customer`.
 
